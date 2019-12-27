@@ -1,0 +1,9 @@
+{application,hackernews,
+             [{applications,[kernel,stdlib,elixir,logger,poison,csv,
+                             httpoison]},
+              {description,"hackernews"},
+              {modules,['Elixir.Hackernews','Elixir.Hackernews.Application',
+                        'Elixir.Hackernews.Scheduler']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Hackernews.Application',[]}}]}.
